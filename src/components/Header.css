@@ -1,0 +1,14 @@
+.header__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--blue);
+    margin-left: 20px;
+}
+

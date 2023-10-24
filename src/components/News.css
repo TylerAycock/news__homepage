@@ -1,0 +1,25 @@
+img{
+    max-width: 100%;
+}
+
+.new__container{
+    background: var(--blue);
+}
+
+.new__container h2{
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.new__news{
+    border-bottom: var( --dark-gray) ;
+}
+
+.new__news h3{
+    color: var(--gray);
+}
+
+.new__news p{
+    color: var(--dark-gray);
+}

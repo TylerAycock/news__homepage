@@ -7,21 +7,21 @@ import growth from "../assets/images/image-gaming-growth.jpg";
 const News = () => {
   return (
     <div className="news__container">
-      <img src={desktop} alt="colorful picture" className="banner__img"/>
+      <img src={desktop} alt="colorful picture" className="banner__img" />
       <div className="new__container">
         <h2>New</h2>
-        <div className="new__news">
+        <div className="new__news one">
           <h3>New Hydrogen VS Electric Cars</h3>
           <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
         </div>
-        <div className="new__news">
+        <div className="new__news two">
           <h3>The Downsides of AI Artistry</h3>
           <p>
             What are the possible adverse effects of on-demand AI image
             generation?
           </p>
         </div>
-        <div className="new__news">
+        <div className="new__news three">
           <h3>Is VC Funding Drying Up?</h3>
           <p>
             Private funding by VC firms is down 50% YOY. We take a look at what
@@ -40,21 +40,27 @@ const News = () => {
       </div>
       <div className="rank__container">
         <img src={retro} alt="retro computer" />
-        <h4>01</h4>
-        <h5>Reviving Retro PCs</h5>
-        <p>What happens when old PCs are given modern upgrades?</p>
+        <div className="rank__info">
+          <h4>01</h4>
+          <h5>Reviving Retro PCs</h5>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
       </div>
       <div className="rank__container">
         <img src={laptop} alt="keyboard" />
-        <h4>02</h4>
-        <h5>Top 10 Laptops of 2022</h5>
-        <p>Our best picks for various needs and budgets.</p>
+        <div className="rank__info">
+          <h4>02</h4>
+          <h5>Top 10 Laptops of 2022</h5>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
       </div>
       <div className="rank__container">
         <img src={growth} alt="gaming controller" />
-        <h4>03</h4>
-        <h5>The Growth of Gaming</h5>
-        <p>How the pandemic has sparked fresh opportunities.</p>
+        <div className="rank__info">
+          <h4>03</h4>
+          <h5>The Growth of Gaming</h5>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
       </div>
     </div>
   );

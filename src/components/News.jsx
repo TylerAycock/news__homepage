@@ -1,5 +1,6 @@
 import "./News.css";
 import desktop from "../assets/images/image-web-3-desktop.jpg";
+import mobile from "../assets/images/image-web-3-mobile.jpg";
 import retro from "../assets/images/image-retro-pcs.jpg";
 import laptop from "../assets/images/image-top-laptops.jpg";
 import growth from "../assets/images/image-gaming-growth.jpg";
@@ -8,6 +9,7 @@ const News = () => {
   return (
     <div className="news__container">
       <img src={desktop} alt="colorful picture" className="banner__img" />
+      <img src={mobile} alt="colorful picture" className="mobile__banner" />
       <div className="new__container">
         <h2>New</h2>
         <div className="new__news one">

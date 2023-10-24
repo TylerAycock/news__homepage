@@ -1,4 +1,4 @@
-body.active-modal {
+.main__container .active-modal {
     overflow-y: hidden;
 }
 

@@ -10,6 +10,10 @@
     grid-column: span 2;
 }
 
+.mobile__banner{
+    display: none;
+}
+
 /* NEW contianer */
 
 .new__container{
@@ -140,6 +144,14 @@
     .open{
         display: block;
         cursor: pointer;
+    }
+
+    .banner__img{
+        display: none;
+    }
+
+    .mobile__banner{
+        display: block;
     }
     .news__container{
        grid-template-columns: 1fr;

@@ -1,6 +1,11 @@
 import "./Header.css";
 
-const Header = () => {
+const Header = ({modal, setModal}) => {
+
+  const clickHandler = () => {
+    console.log('clicked!')
+    setModal(!modal)
+  }
   return (
     <div className="header__container">
       <svg width="65" height="40" xmlns="http://www.w3.org/2000/svg">
@@ -16,6 +21,7 @@ const Header = () => {
         <a href="#">Trending</a>
         <a href="#">Categories</a>
       </nav>
+      <svg className="open" width="40" height="17" xmlns="http://www.w3.org/2000/svg" onClick={()=>clickHandler()}><g fill="#00001A" fillRule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg>
     </div>
   );
 };

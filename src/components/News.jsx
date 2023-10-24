@@ -42,7 +42,7 @@ const News = () => {
         <img src={retro} alt="retro computer" />
         <div className="rank__info">
           <h4>01</h4>
-          <h5>Reviving Retro PCs</h5>
+          <a href="#">Reviving Retro PCs</a>
           <p>What happens when old PCs are given modern upgrades?</p>
         </div>
       </div>
@@ -50,7 +50,7 @@ const News = () => {
         <img src={laptop} alt="keyboard" />
         <div className="rank__info">
           <h4>02</h4>
-          <h5>Top 10 Laptops of 2022</h5>
+          <a href="#">Top 10 Laptops of 2022</a>
           <p>Our best picks for various needs and budgets.</p>
         </div>
       </div>
@@ -58,7 +58,7 @@ const News = () => {
         <img src={growth} alt="gaming controller" />
         <div className="rank__info">
           <h4>03</h4>
-          <h5>The Growth of Gaming</h5>
+          <a href="#">The Growth of Gaming</a>
           <p>How the pandemic has sparked fresh opportunities.</p>
         </div>
       </div>

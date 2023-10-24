@@ -1,5 +1,4 @@
 .header__container{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,6 +8,14 @@
 nav a{
     text-decoration: none;
     color: var(--blue);
-    margin-left: 20px;
+    margin-left: 40px;
+}
+
+nav a:hover{
+    color: var(--orange);
+}
+
+.open{
+    display: none;
 }
 

@@ -7,7 +7,7 @@ import growth from "../assets/images/image-gaming-growth.jpg";
 const News = () => {
   return (
     <div className="news__container">
-      <img src={desktop} alt="colorful picture" />
+      <img src={desktop} alt="colorful picture" className="banner__img"/>
       <div className="new__container">
         <h2>New</h2>
         <div className="new__news">
@@ -29,7 +29,7 @@ const News = () => {
           </p>
         </div>
       </div>
-      <h1>The Bright Future of Web 3.0?</h1>
+      <h1 className="header">The Bright Future of Web 3.0?</h1>
       <div className="bright__container">
         <p>
           We dive into the next evolution of the web that claims to put the
